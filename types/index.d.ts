@@ -156,7 +156,7 @@ declare interface HeaderBoxProps {
 }
 
 declare interface MobileNavProps {
-  user: User;
+  user: Pick<User, "firstName" | "lastName">;
 }
 
 declare interface PageHeaderProps {
@@ -213,13 +213,13 @@ declare interface FooterProps {
 }
 
 declare interface RightSidebarProps {
-  user: User;
+  user: Pick<User, "firstName" | "lastName">;
   transactions: Transaction[];
   banks: Bank[] & Account[];
 }
 
 declare interface SiderbarProps {
-  user: User;
+  user: Pick<User, "firstName" | "lastName">;
 }
 
 declare interface RecentTransactionsProps {

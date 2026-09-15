@@ -13,7 +13,7 @@ const inter = Inter({
 const ibmPlexSerif = IBM_Plex_Serif({
   subsets: ["latin"],
   weight: ["400", "700"],
-  variable: "--font-inter",
+  variable: "--font-ibm-plex-serif",
 });
 
 const geistMono = Geist_Mono({
